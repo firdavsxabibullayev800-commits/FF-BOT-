@@ -1,4 +1,4 @@
-eyboard=rofrom aiogram.types import (
+from aiogram.types import (
     InlineKeyboardMarkup,
     InlineKeyboardButton,
     ReplyKeyboardMarkup,
@@ -37,4 +37,4 @@ def ff_settings_kb() -> InlineKeyboardMarkup:
 
 def back_to_devices_kb() -> InlineKeyboardMarkup:
     rows = [[InlineKeyboardButton(text="⬅️ Orqaga", callback_data="back_to_devices")]]
-    return InlineKeyboardMarkup(inline_keyboard=rows)ws)
+    return InlineKeyboardMarkup(inline_keyboard=rows)
