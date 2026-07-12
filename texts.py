@@ -147,3 +147,73 @@ GUIDES = {
         "✅ Mos DPI va HUD joylashuvini ishlating.\n"
         "✅ Otish paytida ortiqcha harakat qilmang.\n"
         "━━━━━━━━━━━━━━━\n"
+        "📢 Telegramimizga obuna bo'ling: @xonfirestream"
+    ),
+    "rank": (
+        "🏆 <b>Rank tez ko'tarish maslahatlari</b>\n\n"
+        "✅ Tasodifiy jamoa o'rniga doimiy squad bilan o'ynang.\n"
+        "✅ Ochiq maydonda uzoq qolmang.\n"
+        "✅ Keraksiz janglardan qoching.\n"
+        "✅ Gloo Wall va granatalarni doim olib yuring.\n"
+        "✅ Har o'yinda tirik qolish va ochko yig'ishga e'tibor bering.\n"
+        "━━━━━━━━━━━━━━━\n"
+        "📢 Telegramimizga obuna bo'ling: @xonfirestream"
+    ),
+    "gloowall": (
+        "🛡️ <b>Gloo Wall texnikalari</b>\n\n"
+        "✅ O'q yeyayotganda darhol Gloo Wall qo'ying.\n"
+        "✅ Ochiq joyda zig-zag harakat bilan devor qo'ying.\n"
+        "✅ Davolanayotganda Gloo Wall bilan o'zingizni yoping.\n"
+        "✅ Bir nechta devorni ketma-ket qo'yishni mashq qiling.\n"
+        "✅ Rush qilayotgan raqibning yo'lini Gloo Wall bilan to'sing.\n"
+        "━━━━━━━━━━━━━━━\n"
+        "📢 Telegramimizga obuna bo'ling: @xonfirestream"
+    ),
+    "rush": (
+        "⚔️ <b>Rush usullari</b>\n\n"
+        "✅ Rush qilishdan oldin raqibning joyini aniqlang.\n"
+        "✅ Gloo Wall yordamida yaqinlashing.\n"
+        "✅ Birinchi bo'lib yuqori zarar beradigan qurol bilan hujum qiling.\n"
+        "✅ Jamoa bilan bir vaqtda kirish samaraliroq.\n"
+        "✅ Rushdan keyin darhol pozitsiyani o'zgartiring.\n"
+        "━━━━━━━━━━━━━━━\n"
+        "📢 Telegramimizga obuna bo'ling: @xonfirestream"
+    ),
+    "sniper": (
+        "🎯 <b>Snayper bo'yicha maslahatlar</b>\n\n"
+        "✅ Har doim baland joyni egallang.\n"
+        "✅ Nafasni bosib, shoshilmasdan o'q uzing.\n"
+        "✅ Har bir o'qdan keyin joyingizni almashtiring.\n"
+        "✅ Harakatlanayotgan raqibdan biroz oldinga nishon oling.\n"
+        "✅ Uzoq masofada sabr bilan o'ynang va keraksiz duelga kirmang.\n"
+        "━━━━━━━━━━━━━━━\n"
+        "📢 Telegramimizga obuna bo'ling: @xonfirestream"
+    ),
+}
+
+# ---------- Premium / Cheat / Proxy ----------
+
+PREMIUM_TEXT = (
+    "👑 <b>PREMIUM BO'LIM</b>\n\n"
+    "💎 90% Headshot Nastroyka\n"
+    "💰 Narxi: 50 000 so'm\n"
+    "━━━━━━━━━━━━━━━━━━\n"
+    "⚠️ Haqiqiy Cheat Panel\n"
+    "💰 Narxi: 100 000 so'm\n"
+    "━━━━━━━━━━━━━━━━━━\n"
+    f"📩 Xarid qilish uchun admin bilan bog'laning: {HELP_CONTACT}\n"
+    "📢 Telegram kanalimizga obuna bo'ling: @xonfirestream"
+)
+
+CHEAT_PANEL_TEXT = (
+    "🛠 <b>FREE FIRE CHEAT VA PANELLAR</b>\n\n"
+    "🔥 Free Fire uchun turli panel va xizmatlar haqida ma'lumot olishni istaysizmi?\n"
+    "📢 Barcha yangiliklar va ma'lumotlar kanalimizda!\n"
+    f"👉 {CHEAT_PANEL_CONTACT}"
+)
+
+PROXY_TEXT = (
+    "🌐 <b>PROXY SERVER</b>\n\n"
+    "🚀 Free Fire uchun Proxy Server haqida ma'lumot va yangilanishlarni olish uchun kanalimizga qo'shiling.\n"
+    f"📢 Kanal: {CHEAT_PANEL_CONTACT}"
+)
