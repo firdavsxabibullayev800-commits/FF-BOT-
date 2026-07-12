@@ -1,4 +1,4 @@
-from config import HELP_CONTACT
+from config import HELP_CONTACT, CHEAT_PANEL_CONTACT
 
 WELCOME_TEXT = (
     "🔥 <b>Assalomu alaykum!</b> 🎮\n\n"
@@ -19,8 +19,6 @@ HELP_TEXT = (
     "Assalomu alaykum! Muammo bo'lsa bizga yozing 👉 "
     f"{HELP_CONTACT}"
 )
-
-FF_IMAGES_TEXT = "⚠️ Hozircha bu tugma ishlamayapti."
 
 CHOOSE_DEVICE_TEXT = "📱 <b>Qurilmangizni tanlang</b> 👇"
 
@@ -105,3 +103,47 @@ DEVICE_LABELS = {
     "redmi": "📱 Redmi nastroyka",
     "honor": "📱 Honor nastroyka",
 }
+
+# ---------- Free Fire Niklar ----------
+
+CHOOSE_NIKLAR_TEXT = "🆔 <b>Nik turini tanlang</b> 👇"
+
+SUPER_NICKS = [
+    "亗KILLER亗", "乂SHADOW乂", "꧁༒ALPHA༒꧂", "♛DARK♛", "⚡VENOM⚡",
+    "࿐REAPER࿐", "么HUNTER么", "☠DEMON☠", "★LEGEND★", "ツHEADSHOTツ",
+    "〆NOOB〆", "々GHOST々", "꧁༒DRAGON༒꧂", "乂SNIPER乂", "♛KING♛",
+    "⚡PRO⚡", "亗WARRIOR亗",
+]
+
+GAMER_NICKS = [
+    "꧁𓊈𒆜NEXUS𒆜𓊉꧂", "𒆜RAVEN𒆜", "亗BLAZE亗", "꧁☠FALCON☠꧂", "乂PHANTOM乂",
+    "༒ZERO༒", "么VIPER么", "♛ECLIPSE♛", "⚡INFERNO⚡", "꧁༺TITAN༻꧂",
+    "✘NEMESIS✘", "𒆜PREDATOR𒆜", "々BERSERK々", "☠NIGHT☠", "꧁༒FROST༒꧂",
+    "亗DRAGON亗", "࿐SILENT࿐", "★OBLIVION★", "乂WARLOCK乂", "꧁ঔৣ☬LEGACY☬ঔৣ꧂",
+]
+
+SUPER_NICKS_TEXT = (
+    "👑 <b>SUPER NIKLAR</b>\n\n"
+    "Nusxalash uchun nikka bosing 👇\n\n"
+    + "\n".join(f"<code>{nick}</code>" for nick in SUPER_NICKS)
+)
+
+GAMER_NICKS_TEXT = (
+    "🎮 <b>GAMER NIKLAR</b>\n\n"
+    "Nusxalash uchun nikka bosing 👇\n\n"
+    + "\n".join(f"<code>{nick}</code>" for nick in GAMER_NICKS)
+)
+
+# ---------- Qo'llanmalar ----------
+
+CHOOSE_GUIDE_TEXT = "📚 <b>Qo'llanmani tanlang</b> 👇"
+
+GUIDES = {
+    "headshot": (
+        "🎯 <b>Headshot qilish sirlari</b>\n\n"
+        "✅ Sensitivityni o'zingizga moslab tanlang.\n"
+        "✅ Nishonni bo'yin qismiga olib chiqib tez yuqoriga torting (drag).\n"
+        "✅ Har kuni Training Ground'da mashq qiling.\n"
+        "✅ Mos DPI va HUD joylashuvini ishlating.\n"
+        "✅ Otish paytida ortiqcha harakat qilmang.\n"
+        "━━━━━━━━━━━━━━━\n"
