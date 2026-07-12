@@ -18,11 +18,15 @@ def subscribe_kb() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
-def main_menu_kb() -> ReplyKeyboardMarkup:
+def main_menu_kb(is_admin: bool = False) -> ReplyKeyboardMarkup:
     kb = [
-        [KeyboardButton(text="🎯 Free Fire nastroykalar"), KeyboardButton(text="🖼 Free Fire rasmlar")],
+        [KeyboardButton(text="🆔 Free Fire niklar"), KeyboardButton(text="🎯 Free Fire nastroykalar")],
+        [KeyboardButton(text="📚 Qo'llanmalar"), KeyboardButton(text="🎨 Premium bo'lim")],
+        [KeyboardButton(text="🛠 Cheat va Panellar"), KeyboardButton(text="🌐 Proxy Server")],
         [KeyboardButton(text="ℹ️ Yordam")],
     ]
+    if is_admin:
+        kb.append([KeyboardButton(text="📊 Statistika")])
     return ReplyKeyboardMarkup(keyboard=kb, resize_keyboard=True)
 
 
@@ -37,4 +41,41 @@ def ff_settings_kb() -> InlineKeyboardMarkup:
 
 def back_to_devices_kb() -> InlineKeyboardMarkup:
     rows = [[InlineKeyboardButton(text="⬅️ Orqaga", callback_data="back_to_devices")]]
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def niklar_kb() -> InlineKeyboardMarkup:
+    rows = [
+        [
+            InlineKeyboardButton(text="👑 Super niklar", callback_data="nik:super"),
+            InlineKeyboardButton(text="🎮 Gamer niklar", callback_data="nik:gamer"),
+        ]
+    ]
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def back_to_niklar_kb() -> InlineKeyboardMarkup:
+    rows = [[InlineKeyboardButton(text="⬅️ Orqaga", callback_data="back_to_niklar")]]
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def guides_kb() -> InlineKeyboardMarkup:
+    rows = [
+        [
+            InlineKeyboardButton(text="🎯 Headshot sirlari", callback_data="guide:headshot"),
+            InlineKeyboardButton(text="🏆 Rank ko'tarish", callback_data="guide:rank"),
+        ],
+        [
+            InlineKeyboardButton(text="🛡️ Gloo Wall", callback_data="guide:gloowall"),
+            InlineKeyboardButton(text="⚔️ Rush usullari", callback_data="guide:rush"),
+        ],
+        [
+            InlineKeyboardButton(text="🎯 Snayper maslahatlar", callback_data="guide:sniper"),
+        ],
+    ]
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def back_to_guides_kb() -> InlineKeyboardMarkup:
+    rows = [[InlineKeyboardButton(text="⬅️ Orqaga", callback_data="back_to_guides")]]
     return InlineKeyboardMarkup(inline_keyboard=rows)
